@@ -1,0 +1,201 @@
+html, body {
+  font-family: "Roboto", sans-serife;
+  background-color: #A6BB8D;
+}
+
+nav {
+  text-align: center;
+}
+nav ul li {
+  display: inline-block;
+  padding: 1rem;
+}
+nav ul li a {
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: bold;
+  color: #3C6255;
+}
+nav ul li a:hover {
+  border-bottom: 2px solid #EAE7B1;
+}
+
+.banner {
+  background: url("../../imagens/banner.jpeg") 27% center no-repeat;
+  min-height: 350px;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0.8;
+}
+.banner .inner-banner {
+  padding: 3rem;
+  border-radius: 45px;
+}
+.banner .inner-banner h1 {
+  font-size: 3rem;
+  color: #EAE7B1;
+}
+.banner .inner-banner h2 {
+  font-size: 1.2rem;
+  color: #EAE7B1;
+}
+
+#servicos {
+  margin: 80px;
+}
+#servicos h4 {
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  color: #61876E;
+  font-weight: 500;
+  text-align: center;
+  margin: 1rem;
+}
+#servicos h3 {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 80px;
+  font-weight: 300;
+  color: #EAE7B1;
+}
+#servicos .cards {
+  display: flex;
+  justify-content: space-evenly;
+}
+#servicos .cards .card {
+  width: 360px;
+  text-align: center;
+}
+#servicos .cards .card .img-container {
+  padding-bottom: 2px;
+  border-bottom: 6px solid #EAE7B1;
+}
+#servicos .cards .card .img-container img {
+  max-width: 100%;
+}
+#servicos .cards .card .img-container:hover {
+  border-bottom: 6px solid #61876E;
+}
+#servicos .cards .card h5 {
+  margin-top: 20px;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  font-weight: 400;
+  color: #EAE7B1;
+}
+#servicos .cards .card p {
+  margin-top: 10px;
+  font-size: 1rem;
+  font-weight: 400;
+  color: #61876E;
+  line-height: 1.25rem;
+}
+
+#cupom {
+  background-color: #EAE7B1;
+  padding: 4rem;
+  text-align: center;
+}
+#cupom .texto {
+  color: #61876E;
+}
+#cupom .texto h2 {
+  margin: 2rem;
+  font-size: 1.5rem;
+}
+#cupom .input {
+  margin: 0 auto;
+  width: 575px;
+  border-radius: 20px;
+  border: 4px solid white;
+  background: white;
+}
+#cupom .input input {
+  border-radius: 20px;
+  height: 40px;
+  border: none;
+  width: 540px;
+  outline: none;
+  text-align: center;
+  font-size: 26px;
+}
+#cupom .input:hover, #cupom .input:focus-within {
+  box-shadow: 1px 1px 8px 1px #A6BB8D;
+  outline: none;
+}
+#cupom button {
+  text-transform: uppercase;
+  margin-top: 0.75rem;
+  height: 40px;
+  text-align: center;
+  outline: none;
+  width: 130px;
+  background-color: #61876E;
+  color: #A6BB8D;
+  letter-spacing: 1px;
+  border-radius: 20px;
+  font-size: 15px;
+  font-weight: bold;
+  border: 2px #61876E;
+}
+#cupom button:hover {
+  color: #61876E;
+  background-color: #A6BB8D;
+}
+
+#produtos {
+  margin-top: 40px;
+}
+#produtos .produtos-img {
+  display: flex;
+  justify-content: space-evenly;
+}
+#produtos .produtos-img .img-container {
+  padding-bottom: 2px;
+  border-bottom: 6px solid #61876E;
+  width: 360px;
+}
+#produtos .produtos-img .img-container img {
+  max-width: 100%;
+}
+#produtos .produtos-img .img-container:hover {
+  border-bottom: 6px solid #EAE7B1;
+}
+#produtos .texto {
+  margin-top: 40px;
+  text-align: center;
+}
+#produtos .texto h3 {
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: #EAE7B1;
+}
+#produtos .texto h4 {
+  margin-top: 5px;
+  font-size: 1.2rem;
+  font-weight: 400;
+  color: #EAE7B1;
+}
+#produtos .texto p {
+  margin-top: 15px;
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: #61876E;
+}
+
+footer {
+  text-align: center;
+  font-size: 1.5rem;
+  background: linear-gradient(#A6BB8D, #3C6255);
+  border-top: 2px solid #A6BB8D;
+  margin-top: 1rem;
+  padding: 1.2rem;
+  color: #EAE7B1;
+}
+footer i {
+  color: red;
+}/*# sourceMappingURL=style.css.map */

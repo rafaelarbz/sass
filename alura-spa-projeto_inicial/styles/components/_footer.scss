@@ -1,0 +1,19 @@
+@import '../abstract/variaveis';
+
+@mixin cor-background($cor...){
+    background: linear-gradient($cor);
+}
+
+footer {
+    text-align: center;
+    font-size: $titulo / 2;
+    @include cor-background($cor-verde-claro, $cor-verde-escuro);
+    border-top: 2px solid $cor-verde-claro;
+    margin-top: 1rem;
+    padding: 1.2rem;
+    color: $cor-pastel;
+    i {
+        color: red;
+    }
+}
+
